@@ -1,0 +1,96 @@
+* {
+    font-family: 'Source Serif Pro', serif;
+
+}
+
+
+body {
+    padding: 0 10px;
+    background-color: #faf5f5bb;
+
+}
+
+.upload-form {
+    font-size: 18px;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 80px;
+    padding-left: 100px;
+    padding-right: 80px;
+    background-color: #c4b8a1;
+    border-radius: 18px;
+
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 150px;
+
+
+
+}
+
+.input-field {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: left;
+
+
+
+}
+
+.input-field label {
+    width: 200px;
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+
+
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #dddd;
+    height: 120px;
+    font-size: 20px;
+
+
+}
+
+input[type=submit] {
+
+    border: 1px solid #42443f;
+    border-radius: 10px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 20%
+}
+
+input[type=submit]:hover {
+    background: ;
+
+}
+
+@media (max-width: 600px) {
+    .input-field {
+
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+
+}
