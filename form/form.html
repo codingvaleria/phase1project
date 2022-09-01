@@ -7,45 +7,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="styles2.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Source+Serif+Pro&family=Trocchi&display=swap"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Source+Serif+Pro&display=swap"
         rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Source+Sans+Pro&family=Source+Serif+Pro&family=Trocchi&display=swap"
-        rel="stylesheet">
-    <title> Upload Form </title>
+    <title> ZuruKenya | Save Recommendation</title>
 
 </head>
 
 <body>
 
     <form class="upload-form">
-        <div class="title"> Site Update Form </div>
+        <h2 class="title"> Site Update Form </h2>
         <div class="input-field">
-            <label for="location">LOCATION:</label><br>
-            <input type="text" id="location" name="locationname"><br>
-
-        </div>
-
-        <div class="input-field">
-            <label for="imagefield"> IMAGE:</label><br>
-            <input type="text" id="description" name="description"><br>
-        </div>
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location">
 
         </div>
 
         <div class="input-field">
-            <label for="description"> DESCRIPTION:</label><br>
-            <input type="text" id="description" name="description"><br>
+            <label for="imagefield"> Image:</label>
+            <input type="text" id="image" name="image">
+        </div>
+
         </div>
 
         <div class="input-field">
-            <label for="entycharges"> ENTRY CHARGES:</label><br>
-            <input type="text" id="description" name="description"><br>
+            <label for="description"> Description:</label>
+            <textarea name="description" id="description" cols="30" rows="10"></textarea>
+
         </div>
 
-        <div>
-            <table class>
-
+        <div class="input-field">
+            <label for="entrycharges"> Entry Charges:</label>
+            <table class="input-table">
                 <tr>
                     <th>Type</th>
                     <th>Child </th>
@@ -53,46 +48,43 @@
                     <th>Adult </th>
 
                 </tr>
-
                 <tr>
                     <td> Citizen </td>
-                    <td> 200 </td>
-                    <td> 100</td>
-                    <td> 100</td>
-
+                    <td> <input type="text" id="citizen-child-charge" name="citizen-child-charge"></td>
+                    <td> <input type="text" id="citizen-student-charge" name="citizen-student-charge"></td>
+                    <td> <input type="text" id="citizen-adult-charge" name="citizen-adult-charge"></td>
                 </tr>
 
                 <tr>
                     <td> Resident</td>
-                    <td> 200 </td>
-                    <td> 200</td>
-                    <td> 500</td>
+                    <td> <input type="text" id="resident-child-charge" name="resident-child-charge"></td>
+                    <td> <input type="text" id="resident-student-charge" name="resident-student-charge"></td>
+                    <td> <input type="text" id="resident-adult-charge" name="resident-adult-charge"></td>
 
                 </tr>
 
                 <tr>
                     <td>Non- Resident</td>
-                    <td>100</td>
-                    <td>200</td>
-                    <td>600</td>
+                    <td> <input type="text" id="non-resident-child-charge" name="non-resident-child-charge"></td>
+                    <td> <input type="text" id="non-resident-student-charge" name="non-resident-student-charge"></td>
+                    <td> <input type="text" id="non-resident-adult-charge" name="non-resident-adult-charge"></td>
 
                 </tr>
 
             </table>
+
         </div>
-
-
-
         <div class="input-field">
-            <label for="policies"> POLICIES:</label><br>
+            <label for="policies"> Policies: </label><br>
             <input type="text" id="policies" name="policies"><br>
 
         </div>
 
-        <input type="submit" value="Submit">
-
-
+        <div class="submit-wrapper">
+            <input type="submit" id="submit" value="Submit">
+        </div>
     </form>
 </body>
+<script src="index.js"></script>
 
 </html>
