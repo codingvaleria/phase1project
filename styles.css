@@ -9,12 +9,7 @@ h4,
 h5,
 h6,
 header {
-    font-family: 'Source Serif Pro', serif;
-
-}
-
-body {
-    margin: 0;
+    font-family: 'Source Serif Pro', seri
 }
 
 .header-wrapper {
@@ -105,10 +100,6 @@ a:active {
 
 }
 
-.details h2 {
-    margin: 10px 0
-}
-
 .details p {
     margin: 4px 0;
 
@@ -128,29 +119,15 @@ a:active {
     align-items: center;
 }
 
-img {
-    max-width: 60%;
-    height: auto;
-    text-align: center;
-    padding-bottom: 30px;
-}
-
 .description-container {
     display: flex;
     flex-direction: column;
-}
-
-.workcharges-container {
-    display: flex;
-    flex-direction: column;
-
 }
 
 table {
     width: 600px;
     border: 1px solid #dddd;
     border-collapse: collapse;
-
 
 }
 
@@ -172,10 +149,4 @@ td {
     flex-direction: column;
     align-items: left;
 
-}
-
-.Ksh {
-    font-style: italic;
-    font-size: 18px;
-    font-weight: lighter;
 }
