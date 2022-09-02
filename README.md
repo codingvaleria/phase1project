@@ -17,6 +17,14 @@ The following are the fonts used for this project:
 1. Nunito (Google Fonts)
 1. Source Serif Pro (Google Fonts)
 
+## Pages
+The web application has the following pages:
+
+#### The Client View page
+![Client View Page](./images/clientview.jpeg)
+The client side shows suggestions on different areas a user can visit within the country. An overview image of the tour location, entry fee charges, opening and closing hours and policies.
+
+
 
 
 
