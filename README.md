@@ -5,6 +5,11 @@ This project entails creating a travel directory Web application called ZuruKeny
 
 ## The Client Side
 The client side shows suggestions on different areas a user can visit within the country. An overview image of the tour location, entry fee charges, opening and closing hours and policies.
-The wireframes are built using [wireframe.cc]( https://wireframe.cc/).
+
+## Color Palette
+The following is the chosen scheme:
+![Color Palette](./themecolors.jpeg)
+
+
 
 
