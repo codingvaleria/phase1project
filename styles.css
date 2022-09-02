@@ -67,6 +67,16 @@ header {
 
 }
 
+.location-image {
+    content: " ";
+    height: 500px;
+    width: 80%;
+    background-size: 100%;
+    background-position: center left;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
 a {
     color: #42443f;
     text-decoration: none;
@@ -81,11 +91,9 @@ a:active {
     color: #9bb796;
 }
 
-
 .details {
     display: flex;
     flex-direction: column;
-
     flex: 5;
     padding-left: 40px;
     padding-bottom: 50px;
@@ -98,7 +106,6 @@ a:active {
 }
 
 .details h2 {
-
     margin: 10px 0
 }
 
@@ -132,15 +139,11 @@ img {
 .description-container {
     display: flex;
     flex-direction: column;
-
-
 }
 
 .workcharges-container {
-
     display: flex;
     flex-direction: column;
-
 
 }
 
