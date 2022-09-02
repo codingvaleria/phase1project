@@ -17,5 +17,24 @@ submit.addEventListener("click", function (event) {
         }
     }
 
+    fetch("http://localhost:3000/recommendations", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+        },
+        body: JSON.stringify({
+            location,
+            image,
+            description,
+            policies,
+            workingHours,
+            entryCharges,
+        })
+    })
+        .then(function () {
+            document.getElementById("form").reset();
+        })
 })
+
 
