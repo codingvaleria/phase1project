@@ -21,12 +21,23 @@ The following are the fonts used for this project:
 The web application has the following pages:
 
 #### The Client View Page
-![Client View Page](./images/clientview.jpeg)
+![Client View Page](./images/clientview.png)
 The client side shows suggestions on different areas a user can visit within the country. An overview image of the tour location, entry fee charges, opening and closing hours and policies.
 
 #### The Site Update Form/view
-![Admin Form](./images/adminform.jpeg)
+![Admin Form](./images/adminform.png)
 The admin view shows the form template for the admin to add details to the recommendations on user view. 
 
+## Definition of Terms
+#### Location
+This is the particular place suggested to visit.
+#### Image
+This is a link to an image that gives the general impression , represented by the location in form of a piece of art.
+#### Description
+This is an overview of the location in terms of the history of the place, what the person is likely to experience, see, and learn about the location.
+#### Charges
+This are the rates charged for entry to the location. Divided into citizen and non citizens, adults, students and children.
+#### Policies
+This are the rules or guidelines that a user is supposed to adhere to within the location or meet before they get to location.
 
 
