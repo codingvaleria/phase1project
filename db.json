@@ -1,0 +1,41 @@
+{
+  "recommendations": [
+    {
+      "id": 1,
+      "location": "Kenya Railway Museum",
+      "image": "https://pikwizard.com/photos/8d8b2f49940da861757e56a11bf843fd-m.jpg",
+      "workingHours": "Monday-Sunday including public holidays, from 08:00 am - 05:00 pm\n Railway Museum Contact Number: 0709907411",
+      "description": "The Nairobi Railway Museum is a renowned historical center in Nairobi, Kenya, contiguous to the Nairobi railway station. Holding shows from the old East African Railways, it was opened in 1971 by East African Railway and Harbours Corporation.\n\n The museum gives great info and background on Kenya up until the present day, telling the story through artifacts, pictures, maps, and an AMAZING guide.\n\n The museum also features demonstrations, presentations and voiceovers to illustrate the evolution and mechanism of working of the various railway engines and sophisticated locomotives. ",
+      "policies": "Strictly no cash payments\n Photography charges apply",
+      "entryCharges": {
+        "citizen-child-charge": "140",
+        "citizen-student-charge": "100",
+        "citizen-adult-charge": "200",
+        "resident-child-charge": "200 ",
+        "resident-student-charge": "200",
+        "resident-adult-charge": "5040",
+        "non-resident-child-charge": "3200",
+        "non-resident-student-charge": "300",
+        "non-resident-adult-charge": "600"
+      }
+    },
+    {
+      "location": "Nairobi National Park",
+      "image": "https://images.unsplash.com/photo-1617938544737-cf7b41829226?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices mauris nisl, eu ullamcorper velit placerat ut. Aliquam in nisi tellus. Nullam fermentum porta consectetur. Etiam bibendum nunc quam, a gravida massa laoreet et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed venenatis magna in sollicitudin faucibus. Quisque faucibus interdum turpis, eget commodo nulla laoreet at. Quisque nec nisi non nunc dictum blandit eu at odio. Sed eget ipsum libero. Ut faucibus, quam sit amet aliquam scelerisque, elit elit eleifend metus, at luctus enim felis non magna. Sed blandit venenatis enim a maximus.\n\nUt eget blandit mauris, et pulvinar orci. Aliquam placerat placerat est, nec tempus nisi lacinia eget. Fusce enim dolor, imperdiet in fermentum at, tempor ut lorem. Cras a leo faucibus, aliquet lorem sit amet, rutrum nulla. Donec lacinia, ligula finibus aliquet placerat, diam dui ullamcorper purus, dapibus varius augue quam sit amet velit. Nulla facilisi. Nullam lacus urna, vestibulum vitae erat quis, consectetur ultrices risus. Ut metus turpis, egestas non semper at, vehicula mollis mi. Praesent dictum, ligula vel eleifend accumsan, enim ante sagittis massa, non porta eros erat eu ipsum. Nam laoreet et lacus quis vehicula. Duis eget rutrum lectus, sit amet vestibulum metus.",
+      "policies": "no masks",
+      "entryCharges": {
+        "citizen-child-charge": "440",
+        "citizen-student-charge": "40",
+        "citizen-adult-charge": "5900",
+        "resident-child-charge": "300",
+        "resident-student-charge": "59",
+        "resident-adult-charge": "590",
+        "non-resident-child-charge": "5903",
+        "non-resident-student-charge": "2434",
+        "non-resident-adult-charge": "49"
+      },
+      "id": 2
+    }
+  ]
+}
