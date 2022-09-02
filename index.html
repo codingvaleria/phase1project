@@ -12,23 +12,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Source+Serif+Pro&display=swap"
         rel="stylesheet">
     <title> ZuruKenya | Home</title>
-
-
 </head>
 
 <body>
     <div class="header-wrapper">
         <header> ZuruKenya</header>
     </div>
+
     <div id="body-details">
         <div id="menu">
             <div class="menu-inner">
                 <h2> Recommendation </h2>
             </div>
-            <ul class="locations">
+
+            <ul id="locations" class="locations">
                 <li class="location">
                     <a href="#"> Nairobi Museum </a>
                 </li>
+
                 <li class="location">
                     <a href="#"> Nairobi National Park</a>
 
@@ -43,37 +44,22 @@
 
         <div class="details">
             <div class="image-box">
-                <img src="train.jpg">
-            </div>
-            <div class="description-container">
-                <p> The Nairobi Railway Museum is a renowned historical center in Nairobi, Kenya, contiguous to the
-                    Nairobi railway station. Holding shows from the old East African Railways, it was opened in 1971 by
-                    East African Railway and Harbours Corporation.</p>
-
-                <p>The museum gives great info and background on Kenya up until the present day, telling the story
-                    through artifacts, pictures, maps, and an AMAZING guide. The museum also features
-                    demonstrations, presentations and voiceovers to illustrate the evolution and mechanism of working of
-                    the
-                    various
-                    railway engines and sophisticated locomotives. </p>
-
-                <p> Railway Museum Address: Uhuru rd, Nairobi, Kenya </p>
+                <div id="location-image" class="location-image"></div>
             </div>
 
+            <h1 id="title"></h1>
+            <div id="description-container" class="description-container"></div>
+            <div class="working-hours-container">
+                <h2> Working Hours </h2>
+                <div id="working-hours">
 
-            <div class="workcharges-container">
-                <div class="Hours">
-                    <h2> Working Hours </h2>
-
-                    <p> Railway Museum Contact Number: 0709907411 </p>
-                    <p> Working Hours: Monday-Sunday including public holidays,from 08:00 am - 05:00 pm </p>
+                    <p>Contact Number: 0709907411 </p>
+                    <p>Working Hours: Monday-Sunday including public holidays,from 08:00 am - 05:00 pm </p>
                 </div>
 
                 <div class="charges">
                     <h2> Entry Charges <span class="Ksh">(price in Ksh) </span></h2>
-
-                    <table class>
-
+                    <table>
                         <tr>
                             <th>Type</th>
                             <th>Child </th>
@@ -84,25 +70,25 @@
 
                         <tr>
                             <td> Citizen </td>
-                            <td> 200 </td>
-                            <td> 100</td>
-                            <td> 100</td>
+                            <td id="citizen-child-charge"> 200 </td>
+                            <td id="citizen-student-charge"> 100</td>
+                            <td id="citizen-adult-charge"> 100</td>
 
                         </tr>
 
                         <tr>
                             <td> Resident</td>
-                            <td> 200 </td>
-                            <td> 200</td>
-                            <td> 500</td>
+                            <td id="resident-child-charge"> 200 </td>
+                            <td id="resident-student-charge"> 100</td>
+                            <td id="resident-adult-charge"> 100</td>
 
                         </tr>
 
                         <tr>
                             <td>Non- Resident</td>
-                            <td>100</td>
-                            <td>200</td>
-                            <td>600</td>
+                            <td id="non-resident-child-charge"> 200 </td>
+                            <td id="non-resident-student-charge"> 100</td>
+                            <td id="non-resident-adult-charge"> 100</td>
 
                         </tr>
 
@@ -113,7 +99,7 @@
             </div>
             <div class="policy-container">
                 <h2> Policies </h2>
-                <ul>
+                <ul id="policy-list">
                     <li>Strictly no cash payments </li>
                     <li> Photography charges apply </li>
                 </ul>
@@ -126,5 +112,6 @@
 
 
 </body>
+<script src="index.js"></script>
 
 </html>
