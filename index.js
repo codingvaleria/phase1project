@@ -1,7 +1,8 @@
+// Declaring a function for line breaks
 function newlinesToBreaks(str) {
     return str.replaceAll("\n", "<br />");
 }
-
+// Targeting HTML Elements
 function fetchRecommendation(id) {
     fetch(`http://localhost:3000/recommendations/${id}`, {
         method: "GET",
@@ -29,7 +30,6 @@ function fetchRecommendation(id) {
                     document.getElementById(id).innerHTML = data.entryCharges[id];
                 }
             }
-
             const workingHours = document.getElementById("working-hours");
             workingHours.innerHTML = newlinesToBreaks(data.workingHours);
 
@@ -41,9 +41,8 @@ function fetchRecommendation(id) {
                 })
             policies.innerHTML = listItems.join("");
         })
-
 }
-
+// load recommendation list 
 document.addEventListener("DOMContentLoaded", () => {
     fetchRecommendation(1);
     fetch("http://localhost:3000/recommendations")
