@@ -10,6 +10,13 @@ The client side shows suggestions on different areas a user can visit within the
 The following is the chosen scheme:
 ![Color Palette](./themecolors.jpeg)
 
+## Fonts
+The following are the fonts used for this project:
+
+
+1. Nunito (Google Fonts)
+1. Source Serif Pro (Google Fonts)
+
 
 
 
