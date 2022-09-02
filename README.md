@@ -21,11 +21,13 @@ The following are the fonts used for this project:
 The web application has the following pages:
 
 #### The Client View Page
-![Client View Page](./images/clientview.png)
+![Client View Page](./images/clientview.png) 
+
 The client side shows suggestions on different areas a user can visit within the country. An overview image of the tour location, entry fee charges, opening and closing hours and policies.
 
 #### The Site Update Form/view
 ![Admin Form](./images/adminform.png)
+
 The admin view shows the form template for the admin to add details to the recommendations on user view. 
 
 ## Definition of Terms
