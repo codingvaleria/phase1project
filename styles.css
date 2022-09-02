@@ -2,6 +2,11 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
+/* Styling  */
+body {
+    margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -9,7 +14,7 @@ h4,
 h5,
 h6,
 header {
-    font-family: 'Source Serif Pro', seri
+    font-family: 'Source Serif Pro',
 }
 
 .header-wrapper {
@@ -25,6 +30,21 @@ header {
 header {
     padding: 20px;
     font-weight: bolder;
+}
+
+.header-link {
+    display: block;
+    position: absolute;
+    right: 38px;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: underline;
+    color: black;
+}
+
+.header-link:hover {
+    color: black;
+    background-color: none;
 }
 
 #body-details {
@@ -78,13 +98,6 @@ a {
 
 }
 
-a:hover {
-    background-color: #ffff;
-}
-
-a:active {
-    color: #9bb796;
-}
 
 .details {
     display: flex;
