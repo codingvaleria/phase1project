@@ -12,32 +12,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Source+Serif+Pro&display=swap"
         rel="stylesheet">
     <title> ZuruKenya | Save Recommendation</title>
-
 </head>
 
 <body>
-
+    <!-- Setting input fields -->
     <form id="form" class="upload-form">
         <h2 class="title"> Site Update Form </h2>
         <div class="input-field">
             <label for="location">Location:</label>
             <input type="text" id="location" name="location">
-
         </div>
-
         <div class="input-field">
             <label for="imagefield"> Image:</label>
             <input type="text" id="image" name="image">
         </div>
-
         </div>
-
         <div class="input-field">
             <label for="description"> Description:</label>
             <textarea name="description" id="description" cols="30" rows="10"></textarea>
-
         </div>
-
         <div class="input-field">
             <label for="entrycharges"> Entry Charges:</label>
             <table class="input-table">
@@ -46,7 +39,6 @@
                     <th>Child </th>
                     <th>Student</th>
                     <th>Adult </th>
-
                 </tr>
                 <tr>
                     <td> Citizen </td>
@@ -54,43 +46,34 @@
                     <td> <input type="text" id="citizen-student-charge" name="citizen-student-charge"></td>
                     <td> <input type="text" id="citizen-adult-charge" name="citizen-adult-charge"></td>
                 </tr>
-
                 <tr>
                     <td> Resident</td>
                     <td> <input type="text" id="resident-child-charge" name="resident-child-charge"></td>
                     <td> <input type="text" id="resident-student-charge" name="resident-student-charge"></td>
                     <td> <input type="text" id="resident-adult-charge" name="resident-adult-charge"></td>
-
                 </tr>
-
                 <tr>
                     <td>Non- Resident</td>
                     <td> <input type="text" id="non-resident-child-charge" name="non-resident-child-charge"></td>
                     <td> <input type="text" id="non-resident-student-charge" name="non-resident-student-charge"></td>
                     <td> <input type="text" id="non-resident-adult-charge" name="non-resident-adult-charge"></td>
-
                 </tr>
-
             </table>
-
         </div>
-
         <div class="input-field">
             <label for="description"> Working Hours:</label>
             <textarea name="working-hours" id="working-hours" rows="4"></textarea>
-
         </div>
         <div class="input-field">
             <label for="policies"> Policies: </label><br>
             <input type="text" id="policies" name="policies"><br>
-
         </div>
-
         <div class="submit-wrapper">
             <input type="submit" id="submit" value="Submit">
         </div>
     </form>
 </body>
+<!-- Adding js to form -->
 <script src="form.js"></script>
 
 </html>
