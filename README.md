@@ -63,3 +63,4 @@ If you open a new tab in your browser and visit http://localhost:3000/recommenda
 By capturing user input via event listeners, using fetch requests, and DOM manipulation, we can update the ZuruKenya web page content as a user requests it.
 
 
+
